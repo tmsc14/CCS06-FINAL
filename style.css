@@ -1,0 +1,165 @@
+rect{
+    position: absolute;
+    width: 1920px;
+    height: 109px;
+    left: 0px;
+    top: 0px;
+
+    background: #311D1D;
+}
+
+.img1{
+    position: absolute;
+    width: 1920px;
+    height: 335px;
+    left: 0px;
+    top: 109px;
+
+    background: url(image.png);
+    mix-blend-mode: multiply;
+}
+
+.img2{
+    position: absolute;
+    width: 91.22px;
+    height: 95.72px;
+    left: 1798px;
+    top: 13px;
+}
+
+nav{
+    background: #311D1D;
+}
+
+.dashboard{
+    position: absolute;
+    width: 185px;
+    height: 45px;
+    left: 86px;
+    top: 51px;
+
+    font-family: 'Gabriela';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 45px;
+    text-decoration: none;
+
+    color: #FFFFFF;
+}
+
+.product{
+    position: absolute;
+    width: 147px;
+    height: 45px;
+    left: 445px;
+    top: 51px;
+    text-decoration: none;
+
+    font-family: 'Gabriela';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 45px;
+
+    color: #FFFFFF;
+}
+
+.category{
+    position: absolute;
+    width: 152px;
+    height: 45px;
+    left: 765px;
+    top: 51px;
+    text-decoration: none;
+
+    font-family: 'Gabriela';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 45px;
+
+    color: #FFFFFF;
+}
+
+
+#product-form {
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+.form-container {
+    width: 600px; /* Adjust the width as needed */
+    margin: 0 auto; /* Centers the container horizontally */
+    padding: 20px;
+    background-color: #f2f2f2;
+}
+
+.form-label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.form-control {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.form-select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.form-submit {
+    width: 100%;
+    padding: 8px;
+    border-radius: 4px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+
+}
+
+.error-message {
+    color: red;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+.success-update{
+    color: red;
+    font-weight: bold;
+    top: 1000px;
+    left: 400px;
+
+}
+
+.logout-btn {
+    position: absolute;
+    top: 35px;
+    right: 140px;
+    display: inline-block;
+    padding:10px 30px;
+    font-size: 20px;
+    background: #333;
+    color:#fff;
+    margin:0 5px;
+    text-transform: capitalize;
+    text-decoration: none;
+    border-radius: 5px;
+    
+    
+}
+
+.logout-btn:hover {
+    background: crimson;
+}
+
+

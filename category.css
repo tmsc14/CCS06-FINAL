@@ -1,0 +1,47 @@
+/* category.css */
+
+/* Add your custom CSS styles here */
+ 
+  .form-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+  }
+  
+  .error-message {
+    color: red;
+    margin-bottom: 10px;
+  }
+  
+  table {
+    width: 100%;
+  }
+  
+  th {
+    background-color: #f8f9fa;
+    padding: 10px;
+  }
+  
+  td {
+    padding: 10px;
+  }
+  
+  .edit-btn {
+    background-color: blue;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 3px;
+  }
+  
+  /* Delete button style */
+  .delete-btn {
+    background-color: red;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 3px;
+  }
+  
+  
+
+  

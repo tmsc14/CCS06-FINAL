@@ -1,0 +1,113 @@
+.form-container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 5px;
+}
+
+.form-container .form-control {
+    margin-bottom: 10px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-container .form-label {
+    font-weight: bold;
+}
+
+.form-container .form-select {
+    margin-bottom: 10px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-container .form-control[type="submit"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#product-table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #f7f7f7;
+    border: 1px solid #ddd;
+    font-family: Arial, sans-serif;
+}
+
+#product-table th,
+#product-table td {
+    padding: 12px;
+    text-align: left;
+    color: black;
+}
+
+#product-table th {
+    background-color: #ffffff;
+}
+
+#product-table tbody tr {
+    border-bottom: 1px solid #ddd;
+}
+
+#product-table .product-cell:first-child {
+    border-left: 1px solid #ddd;
+}
+
+#product-table .product-cell:last-child {
+    border-right: 1px solid #ddd;
+}
+
+.action-cell {
+    display: flex;
+    gap: 5px;
+}
+
+.edit-button{
+    padding: 5px 10px;
+    border: none;
+    background-color: #007bff;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.edit-button:hover{
+    background-color: #0056b3;
+}
+
+.delete-button {
+    padding: 5px 10px;
+    border: none;
+    background-color: #ff0000; /* Change background color to red */
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.delete-button:hover {
+    background-color: #cc0000; /* Change hover background color to a darker shade of red */
+}
+
+.confirmation-dialog {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    padding: 20px;
+    z-index: 9999;
+}
+
+.confirmation-dialog h3 {
+    margin-top: 0;
+}
+
+.confirmation-dialog button {
+    margin-top: 10px;
+}
