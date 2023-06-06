@@ -41,12 +41,12 @@ if(!isset($_SESSION['admin_name'])){
 
 <!-- profile -->
 
-<div class="container">
+<div class="container" style="position: absolute; top: 450px; left: 325px;">
    <div class="content">
       <h3>hi, <span>user</span></h3>
       <h1>welcome <span><?php echo $_SESSION['user_name'] ?></span></h1>
-      <p>this is an user page</p>
-      <a href="/cafe/index.php" class="btn btn-logout">logout</a>
+      <p>this is the user page</p>
+      <a href="index.php" class="btn btn-logout">logout</a>
    </div>
 </div>
 
